@@ -111,3 +111,13 @@ Where _proof_ can be any of:
 
 
 <!--[^gpu]: If you do not have access to the ALCF systems, you can install [OpenMPI](https://docs.open-mpi.org/en/v5.0.x/) and run across multiple CPUs as well-->
+
+## ✅ Solution
+
+Below is an image mid-training:
+
+![HW6 training](https://github.com/suyashk12/ai-science-training-series/blob/main/06_parallel_training/06_parallel_training-mid-run.png)
+
+Below are the training results:
+
+![HW6 results](https://github.com/suyashk12/ai-science-training-series/blob/main/06_parallel_training/06_parallel_training-results.png)

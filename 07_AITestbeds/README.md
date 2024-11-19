@@ -83,3 +83,15 @@ You need to submit either Theory Homework or Hands-on Homework.
 Contributors: [Siddhisanket (Sid) Raskar](https://sraskar.github.io/), [Murali Emani](https://memani1.github.io/), [Varuni Sastry](https://www.alcf.anl.gov/about/people/varuni-katti-sastry), [Bill Arnold](https://www.alcf.anl.gov/about/people/bill-arnold), and  [Venkat Vishwanath](https://www.alcf.anl.gov/about/people/venkatram-vishwanath).
 
 > This research used resources of the Argonne Leadership Computing Facility, which is a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
+
+## Graphcore Homework Solution
+
+As instructed for the Graphcore homework, I first ran the MNIST example using the default batch size (8), learning rate (0.03) and epochs (10), which gave a test set accuracy of 97.84%, screenshot attached below.
+
+![Default MNIST performance](https://github.com/suyashk12/ai-science-training-series/tree/main/07_AITestbeds/07_ai_accelerators-default_mnist)
+
+I then lowered the learning rate (0.003) to allow for slower convergence and capture finer details, increased epochs (20) to provide sufficient training time, and increased batch size (16) to compensate for some of the extra time taken by slower training. These changes improved the test set accuracy to 98.56%, screenshot attached below.
+
+![Improved MNIST performance](https://github.com/suyashk12/ai-science-training-series/tree/main/07_AITestbeds/07_ai_accelerators-improved_mnist)
+ 
+

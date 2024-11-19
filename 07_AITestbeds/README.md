@@ -88,10 +88,10 @@ Contributors: [Siddhisanket (Sid) Raskar](https://sraskar.github.io/), [Murali E
 
 As instructed for the Graphcore homework, I first ran the MNIST example using the default batch size (8), learning rate (0.03) and epochs (10), which gave a test set accuracy of 97.84%, screenshot attached below.
 
-![Default MNIST performance](https://github.com/suyashk12/ai-science-training-series/tree/main/07_AITestbeds/07_ai_accelerators-default_mnist.png)
+![Default MNIST performance](https://github.com/suyashk12/ai-science-training-series/blob/main/07_AITestbeds/07_ai_accelerators-default_mnist.png)
 
 I then lowered the learning rate (0.003) to allow for slower convergence and capture finer details, increased epochs (20) to provide sufficient training time, and increased batch size (16) to compensate for some of the extra time taken by slower training. These changes improved the test set accuracy to 98.56%, screenshot attached below.
 
-![Improved MNIST performance](https://github.com/suyashk12/ai-science-training-series/tree/main/07_AITestbeds/07_ai_accelerators-improved_mnist.png)
+![Improved MNIST performance](https://github.com/suyashk12/ai-science-training-series/blob/main/07_AITestbeds/07_ai_accelerators-improved_mnist.png)
  
 
